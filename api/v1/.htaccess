@@ -2,7 +2,7 @@
     RewriteEngine On
     
     # Set the base path to your subdirectory (adjust as needed)
-    RewriteBase /grocerystore/api/v1/
+    RewriteBase /aquaadventures/api/v1/
     
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

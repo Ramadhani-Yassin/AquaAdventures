@@ -39,7 +39,7 @@
                     android:layout_marginTop="5dp"
                     android:background="@color/agendacolor"/>
 
-                <jokhakhamisjuma.grocerystore.customfonts.EditTextRegular
+                <com.jokhakhamisjuma.AquaAdventures.customfonts.EditTextRegular
                     android:id="@+id/prescription_remark"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal">
-                    <jokhakhamisjuma.grocerystore.customfonts.ButtonSemiBold
+                    <com.jokhakhamisjuma.AquaAdventures.customfonts.ButtonSemiBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Cancel"
@@ -98,7 +98,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="@dimen/_10dp"
                         />
-                    <jokhakhamisjuma.grocerystore.customfonts.ButtonSemiBold
+                    <com.jokhakhamisjuma.AquaAdventures.customfonts.ButtonSemiBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Upload"

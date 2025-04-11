@@ -71,7 +71,7 @@
                     android:textSize="10dp"
                     android:textColor="@color/black"
                     android:id="@+id/status"/>
-                <jokhakhamisjuma.grocerystore.customfonts.TextViewSemiBold
+                <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewSemiBold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="10dp"

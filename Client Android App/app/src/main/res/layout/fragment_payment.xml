@@ -189,7 +189,7 @@
                             android:padding="13dp">
 
 
-                            <jokhakhamisjuma.grocerystore.customfonts.EditTextRegular
+                            <com.jokhakhamisjuma.AquaAdventures.customfonts.EditTextRegular
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -233,7 +233,7 @@
                             android:padding="14dp">
 
 
-                            <jokhakhamisjuma.grocerystore.customfonts.EditTextRegular
+                            <com.jokhakhamisjuma.AquaAdventures.customfonts.EditTextRegular
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
@@ -281,7 +281,7 @@
                                     android:textColor="@color/lightgrey"
                                     android:textSize="@dimen/sub_text" />
 
-                                <jokhakhamisjuma.grocerystore.customfonts.EditTextRegular
+                                <com.jokhakhamisjuma.AquaAdventures.customfonts.EditTextRegular
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -321,7 +321,7 @@
                                     android:textColor="@color/lightgrey"
                                     android:textSize="@dimen/sub_text" />
 
-                                <jokhakhamisjuma.grocerystore.customfonts.EditTextRegular
+                                <com.jokhakhamisjuma.AquaAdventures.customfonts.EditTextRegular
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"

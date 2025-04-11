@@ -8,7 +8,7 @@ define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'aquaadventures');
-define("BASE_URL", "https://192.168.13.248/aquaadventures/api/v1/");
+define("BASE_URL", "http://192.168.13.248/aquaadventures/api/v1/");
 define("SITE_KEY", 'AIzjdsfs212nkcbcxzfssd');
 
 

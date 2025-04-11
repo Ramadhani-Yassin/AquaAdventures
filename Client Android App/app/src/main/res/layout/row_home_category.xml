@@ -51,7 +51,7 @@
             android:background="@color/colorPrimaryDark"
             android:visibility="gone" />
 
-        <jokhakhamisjuma.grocerystore.customfonts.TextViewSemiBold
+        <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewSemiBold
             android:id="@+id/category_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -48,7 +48,7 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
-                <jokhakhamisjuma.grocerystore.helper.PinEntryEditText
+                <com.jokhakhamisjuma.AquaAdventures.helper.PinEntryEditText
                     android:id="@+id/txt_pin_entry"
                     android:layout_width="match_parent"
                     android:layout_height="65dp"
@@ -87,13 +87,13 @@
                     android:id="@+id/resend_otp_ll"
                     android:layout_marginTop="30dp">
 
-                    <jokhakhamisjuma.grocerystore.customfonts.TextViewSemiBold
+                    <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewSemiBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Have n't Received OTP?"
                         android:textSize="16dp"/>
 
-                    <jokhakhamisjuma.grocerystore.customfonts.TextViewSemiBold
+                    <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewSemiBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Resend OTP"
@@ -111,13 +111,13 @@
                     android:visibility="gone"
                     android:id="@+id/timer_ll">
 
-                    <jokhakhamisjuma.grocerystore.customfonts.TextViewSemiBold
+                    <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewSemiBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Please Wait "
                         android:textSize="16dp"/>
 
-                    <jokhakhamisjuma.grocerystore.customfonts.TextViewSemiBold
+                    <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewSemiBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="30"
