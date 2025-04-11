@@ -1,0 +1,128 @@
+{
+  "statelist": [
+    {
+      "id": 1,
+      "State": "Dar es Salaam"
+    },
+    {
+      "id": 2,
+      "State": "Dodoma"
+    },
+    {
+      "id": 3,
+      "State": "Geita"
+    },
+    {
+      "id": 4,
+      "State": "Iringa"
+    },
+    {
+      "id": 5,
+      "State": "Kagera"
+    },
+    {
+      "id": 6,
+      "State": "Katavi"
+    },
+    {
+      "id": 7,
+      "State": "Kigoma"
+    },
+    {
+      "id": 8,
+      "State": "Kilimanjaro"
+    },
+    {
+      "id": 9,
+      "State": "Lindi"
+    },
+    {
+      "id": 10,
+      "State": "Mara"
+    },
+    {
+      "id": 11,
+      "State": "Mbeya"
+    },
+    {
+      "id": 12,
+      "State": "Morogoro"
+    },
+    {
+      "id": 13,
+      "State": "Mtwara"
+    },
+    {
+      "id": 14,
+      "State": "Mwanza"
+    },
+    {
+      "id": 15,
+      "State": "Njombe"
+    },
+    {
+      "id": 16,
+      "State": "Pemba North"
+    },
+    {
+      "id": 17,
+      "State": "Pemba South"
+    },
+    {
+      "id": 18,
+      "State": "Rukwa"
+    },
+    {
+      "id": 19,
+      "State": "Ruvuma"
+    },
+    {
+      "id": 20,
+      "State": "Shinyanga"
+    },
+    {
+      "id": 21,
+      "State": "Simiyu"
+    },
+    {
+      "id": 22,
+      "State": "Singida"
+    },
+    {
+      "id": 23,
+      "State": "Tabora"
+    },
+    {
+      "id": 24,
+      "State": "Tanga"
+    },
+    {
+      "id": 25,
+      "State": "Zanzibar Urban/West"
+    },
+    {
+      "id": 26,
+      "State": "Zanzibar Central/South"
+    },
+    {
+      "id": 27,
+      "State": "Zanzibar North"
+    },
+    {
+      "id": 28,
+      "State": "Zanzibar South"
+    },
+    {
+      "id": 29,
+      "State": "Arusha"
+    },
+    {
+      "id": 30,
+      "State": "Bariadi"
+    },
+    {
+      "id": 31,
+      "State": "Morogoro"
+    }
+  ]
+}

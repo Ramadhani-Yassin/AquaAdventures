@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "145133493590",
+    "project_id": "aquaadventures-71271",
+    "storage_bucket": "aquaadventures-71271.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145133493590:android:3414f57e11967f7af34af7",
+        "android_client_info": {
+          "package_name": "com.jokhakhamisjuma.AquaAdventures"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiYwT1-VoJK76ZU7GuGqdcuZpfwcr4Dcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
