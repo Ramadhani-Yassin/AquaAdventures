@@ -3,12 +3,7 @@ session_start();
 error_reporting(0);
 include('includes/config.php');
 
-/*
-Author: Quintus Labs
-Author URL: http://quintuslabs.com
-date: 12/11/2019
-Github URL: https://github.com/quintuslabs/GroceryStore-with-server/
-*/
+  
 
 if(strlen($_SESSION['alogin'])==0)
 	{	

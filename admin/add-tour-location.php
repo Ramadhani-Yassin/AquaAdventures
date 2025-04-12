@@ -27,7 +27,7 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-$msg="Category added successfully";
+$msg="Tour Location added successfully";
 }
 else 
 {
@@ -50,7 +50,7 @@ $error="Something went wrong. Please try again";
     <meta name="author" content="">
     <meta name="theme-color" content="#3e454c">
     <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
-    <title>GS | Admin Category
+    <title>Aqua Adventure | Admin Tour Locations
     </title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -87,12 +87,12 @@ $error="Something went wrong. Please try again";
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="page-title">Add Category
+              <h2 class="page-title">Add Tour Location
               </h2>
               <div class="row">
                 <div class="col-md-12">
                   <div class="panel panel-default">
-                    <div class="panel-heading">Form fields
+                    <div class="panel-heading">Location Details
                     </div>
                     <div class="panel-body">
                       <form enctype="multipart/form-data" method="post" class="form-horizontal" onSubmit="return valid();">
@@ -108,14 +108,14 @@ $error="Something went wrong. Please try again";
                             </div>
                           <?php }?>
                           <div class="form-group">
-                            <label class="col-sm-4 control-label">Category
+                            <label class="col-sm-4 control-label">Location Name
                             </label>
                             <div class="col-sm-8">
                               <input type="text" class="form-control" name="category"  required>
                             </div>
                           </div>
                           <div class="form-group">
-                            <label class="col-sm-4 control-label">Category Image
+                            <label class="col-sm-4 control-label">Location Image
                             </label>
                             <div class="col-sm-8">
                               <input type="file" class="form-control" name="categryimg"  required>
@@ -125,7 +125,7 @@ $error="Something went wrong. Please try again";
                           </div>
                           <div class="form-group">
                             <div class="col-sm-8 col-sm-offset-4">
-                              <button class="btn btn-primary" name="submit" type="submit">Add
+                              <button class="btn btn-primary" name="submit" type="submit">Add Location
                               </button>
                             </div>
                           </div>

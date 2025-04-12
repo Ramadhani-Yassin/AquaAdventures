@@ -158,7 +158,7 @@ $msg="Status Updated Sucessfully";
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title"><a href="manage-orders.php">Manage Orders </a></h2>
+						<h2 class="page-title"><a href="manage-bookings.php">Manage Orders </a></h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
@@ -201,10 +201,10 @@ $msg="Status Updated Sucessfully";
 											<td>
 <select onchange="location = this.value;">
   <option></option>
-  <option value="manage-orders.php?confirmid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">Confirmed</option>
-  <option value="manage-orders.php?prepareid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">Prepared</option>
-  <option value="manage-orders.php?wayid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">On Way</option>
-  <option value="manage-orders.php?deliveredid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">Delivered</option>
+  <option value="manage-bookings.php?confirmid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">Confirmed</option>
+  <option value="manage-bookings.php?prepareid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">Prepared</option>
+  <option value="manage-bookings.php?wayid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">On Way</option>
+  <option value="manage-bookings.php?deliveredid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>">Delivered</option>
 </select></td>
 										</tr>
 										<?php $cnt=$cnt+1; }} ?>

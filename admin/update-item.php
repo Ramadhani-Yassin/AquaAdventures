@@ -89,7 +89,7 @@ $resulttemp=$querytemp->fetch(PDO::FETCH_OBJ);
           <div class="row">
             <div class="col-md-12">
               <h2 class="page-title">
-                <a href="manage-items.php">
+                <a href="manage-tour-package.php">
                   <i class="glyphicon glyphicon-circle-arrow-left" style="color:#3b3b3b">
                   </i>
                 </a>&nbsp; &nbsp; Update Price

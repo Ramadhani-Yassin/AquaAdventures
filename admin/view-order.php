@@ -70,7 +70,7 @@ $orderid=intval($_GET['orderid']);
             <div class="col-md-12">
               <div class="row">
                 <div class="col-md-3 h5">
-                  <a href="manage-orders.php"> GO BACK
+                  <a href="manage-bookings.php"> GO BACK
                   </a>
                 </div>
                 <div class="col-md-3 h5">

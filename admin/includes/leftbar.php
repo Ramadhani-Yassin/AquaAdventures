@@ -1,7 +1,6 @@
-<nav class="ts-sidebar">
+<nav class="ts-sidebar" style="background: linear-gradient(135deg, #1e90ff 0%, #00bfff 200%, #87cefa 100%);">
   <ul class="ts-sidebar-menu">
-    <li class="ts-label">Main
-    </li>
+   <br><br>
     <li>
       <a href="dashboard.php">
         <i class="fa fa-dashboard">
@@ -11,15 +10,15 @@
     <li>
       <a href="#">
         <i class="fa fa-files-o">
-        </i> Category
+        </i> Tour Locations
       </a>
       <ul>
         <li>
-          <a href="add-category.php">Add Category
+          <a href="add-tour-location.php">Add Location
           </a>
         </li>
         <li>
-          <a href="manage-category.php">Manage Category
+          <a href="manage-tour-location.php">Manage Locations
           </a>
         </li>
       </ul>
@@ -27,15 +26,15 @@
     <li>
       <a href="#">
         <i class="fa fa-files-o">
-        </i> SubCategory
+        </i> Boat Types
       </a>
       <ul>
         <li>
-          <a href="add-subcategory.php">Add SubCategory
+          <a href="add-boat-type.php">Add Boat Type
           </a>
         </li>
         <li>
-          <a href="manage-subcategory.php">Manage SubCategory
+          <a href="manage-boat-type.php">Manage Boat Types
           </a>
         </li>
       </ul>
@@ -43,46 +42,44 @@
     <li>
       <a href="#">
         <i class="fa fa-files-o">
-        </i>Items
+        </i> Tour Packages
       </a>
       <ul>
         <li>
-          <a href="add-items.php">Add Items
+          <a href="add-tour-package.php">Add Package
           </a>
         </li>
         <li>
-          <a href="manage-items.php">Manage Items
+          <a href="manage-tour-package.php">Manage Packages
           </a>
         </li>
       </ul>
     </li>
     <li>
-      <a href="manage-orders.php">
+      <a href="manage-bookings.php">
         <i class="fa fa-cart-arrow-down">
-        </i> Orders
+        </i> Bookings
       </a>
     </li>
     <li>
       <a href="manage-user.php">
         <i class="fa fa-user">
-        </i>  Users
+        </i> Customers
       </a>
     </li>
-
-   
     
     <li>
       <a href="#">
         <i class="fa fa-picture-o">
-        </i> Banner
+        </i> Gallery
       </a>
       <ul>
         <li>
-          <a href="add-banner.php">Add Banner
+          <a href="add-banner.php">Add Gallery Image
           </a>
         </li>
         <li>
-          <a href="manage-banner.php">Manage Banner
+          <a href="manage-banner.php">Manage Gallery
           </a>
         </li>
       </ul>
@@ -90,15 +87,15 @@
     <li>
       <a href="#">
         <i class="fa fa-gift">
-        </i> Offer
+        </i> Special Offers
       </a>
       <ul>
         <li>
-          <a href="add-offer.php">Add Offer
+          <a href="add-offer.php">Add Special Offer
           </a>
         </li>
         <li>
-          <a href="manage-offer.php">Manage Offer
+          <a href="manage-offer.php">Manage Special Offers
           </a>
         </li>
       </ul>
@@ -117,6 +114,6 @@
  <!--     </a>-->
  <!--   </li>-->
   </ul>
-  <p class="text-center" style="color:#ffffff; margin-top: 100px;">© Developed by Me
+  <p class="text-center" style="color:#ffffff; margin-top: 100px;">© Aqua Adventure
   </p>
 </nav>

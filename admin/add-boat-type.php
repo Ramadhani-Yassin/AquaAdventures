@@ -30,7 +30,7 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-$msg="Category added successfully";
+$msg="Boat Type added successfully";
 }
 else 
 {
@@ -47,7 +47,7 @@ else
   $lastInsertId = $dbh->lastInsertId();
   if($lastInsertId)
   {
-  $msg="Category added successfully";
+  $msg="Boat Type added successfully";
   }
   else 
   {
@@ -66,7 +66,7 @@ else
     <meta name="author" content="">
     <meta name="theme-color" content="#3e454c">
     <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
-    <title>GS | Admin Category
+    <title>Aqua Adventure | Admin Boat Types
     </title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -103,12 +103,12 @@ else
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="page-title">Add  SubCategory
+              <h2 class="page-title">Add Boat Type
               </h2>
               <div class="row">
                 <div class="col-md-12">
                   <div class="panel panel-default">
-                    <div class="panel-heading">Form fields
+                    <div class="panel-heading">Boat Details
                     </div>
                     <div class="panel-body">
                       <form enctype="multipart/form-data" method="post" class="form-horizontal" onSubmit="return valid();">
@@ -124,11 +124,11 @@ else
                             </div>
                           <?php }?>
                           <div class="form-group">
-                            <label class="col-sm-4 control-label">Category
+                            <label class="col-sm-4 control-label">Tour Location
                             </label>
                             <div class="col-sm-8">
                             <select class="form-control" id="category_id" name="category_id" required>
-                              <option>Select Category</option>
+                              <option>Select Location</option>
                               <?php $sql = "SELECT * from categories";
                                 $query = $dbh -> prepare($sql);
                                 $query->execute();
@@ -145,7 +145,7 @@ else
                           </div>
                           
                           <div class="form-group">
-                            <label class="col-sm-4 control-label">SubCategory Title
+                            <label class="col-sm-4 control-label">Boat Type
                             </label>
                             <div class="col-sm-8">
                               <input type="text" class="form-control" name="sub_category_title"  required>
@@ -153,7 +153,7 @@ else
                           </div>
 
                           <div class="form-group">
-                            <label class="col-sm-4 control-label">SubCategory Image
+                            <label class="col-sm-4 control-label">Boat Image
                             </label>
                             <div class="col-sm-8">
                               <input type="file" class="form-control" name="sub_category_img">
@@ -163,7 +163,7 @@ else
                           </div>
                           <div class="form-group">
                             <div class="col-sm-8 col-sm-offset-4">
-                              <button class="btn btn-primary" name="submit" type="submit">Add
+                              <button class="btn btn-primary" name="submit" type="submit">Add Boat
                               </button>
                             </div>
                           </div>
