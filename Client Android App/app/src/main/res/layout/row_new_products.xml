@@ -134,7 +134,7 @@
                         android:layout_marginTop="10dp"
                         android:background="@drawable/shop_button_bg"
                         android:padding="10dp"
-                        android:text="shop Now"
+                        android:text="Book  Now"
                         android:textColor="@color/gen_white" />
 
                     <LinearLayout

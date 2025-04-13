@@ -201,7 +201,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Weight"
+                        android:text="Trip Hours"
                         android:textColor="@color/colorSub" />
 
                     <com.jokhakhamisjuma.AquaAdventures.customfonts.TextViewRegular

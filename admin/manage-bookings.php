@@ -184,7 +184,7 @@ else {
                                             <td><a href="view-order.php?orderid=<?php echo $result->id;?>" >View Booking</a></td>
                                             <td>
                                                 <select onchange="location = this.value;" value=<?php echo htmlentities($result->status);?>>
-                                                    <option <?php if ($result->status == 'Confirmed') echo 'selected'; ?> >Pending</option>
+                                                    <!--<option <?php if ($result->status == 'Confirmed') echo 'selected'; ?> >Pending</option>-->
                                                     <option value="manage-bookings.php?confirmid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>"
                                                     <?php if ($result->status == 'Confirmed') echo 'selected'; ?> >Confirmed</option>
                                                     <option value="manage-bookings.php?prepareid=<?php echo $result->id;?>&mobile=<?php echo $result->mobile;?>"
